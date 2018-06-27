@@ -8,6 +8,7 @@ Download files and view with your browser. Yeah that's pretty much it :)
 Bidemi Ajala (www.bidemi.ng)
 
 # Acknowledgements
+* Google
 * Udacity
 * Andela ALC
 * fe-group-84 Members
