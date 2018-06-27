@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background-image: url("images/bg.jpeg");
+}
+
+h1 {
+    font-family: 'Voltaire', sans-serif;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+table,
+tr,
+td {
+    border: 1.0px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 2em;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 3px;
+    padding: 3px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+#submitButton {
+    border-width: 1px;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+    border: solid;
+    border-width: 1px;
+    font-size: 17px;
+}
+
+:hover#submitButton {
+    background-color: black;
+    color: white;
+    border-width: 0;
+}
+
+form{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 17px;
+}
+
+input[type=submit] {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+
+#colorPicker{
+    border-radius: 5px;
+    width: 30px;
+}
