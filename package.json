@@ -1,0 +1,24 @@
+{
+  "name": "pixel-art-maker",
+  "version": "1.0.0",
+  "description": "Pixel Art Maker for the Google FE Challenge",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bidemiajala/pixel-art-maker.git"
+  },
+  "keywords": [
+    "Pixel",
+    "Art",
+    "Maker"
+  ],
+  "author": "Bidemi Ajala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bidemiajala/pixel-art-maker/issues"
+  },
+  "homepage": "https://github.com/bidemiajala/pixel-art-maker#readme"
+}
