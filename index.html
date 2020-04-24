@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Pixel Art Maker!</title>
     <link href="https://fonts.googleapis.com/css?family=Voltaire" rel="stylesheet">
@@ -7,8 +8,10 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
-        <a href="https://github.com/bidemiajala"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/bidemiajala"><img style="position: absolute; top: 0; right: 0; border: 0;"
+            src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
     <h1>Lab: Pixel Art Maker</h1>
 
     <h2>Choose Grid Size</h2>
@@ -17,7 +20,7 @@
         <input type="number" id="inputHeight" name="height" min="1" value="1">
         Grid Width:
         <input type="number" id="inputWidth" name="width" min="1" value="1">
-        <input type="submit" id="submitButton" value ="Submit">
+        <input type="submit" id="submitButton" value="Submit">
     </form>
 
     <h2>Pick A Color</h2>
@@ -27,5 +30,15 @@
     <table id="pixelCanvas"></table>
 
     <script src="designs.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.14.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
 </body>
+
 </html>
